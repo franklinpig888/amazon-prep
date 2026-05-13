@@ -7,5 +7,9 @@ def add_numbers(a, b):
 name = input("What's your name? ")
 greet(name)
 
-result = add_numbers(10, "hello")
+result = add_numbers(10, 25)
 print(f"10 + 25 = {result}")
+
+def multiply(a, b):
+    return a * b
+print(multiply(4, 5))
